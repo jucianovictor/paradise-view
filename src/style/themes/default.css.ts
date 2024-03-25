@@ -4,9 +4,9 @@ import themeInterface, { Theme } from '../theme.css';
 export const defaultTheme: Theme = {
 	color: {
 		primary: {
-			base: '#433bab',
-			light: '#9791d9',
-			dark: '#312b7d',
+			base: '#4f4f4f',
+			light: '#919191',
+			dark: '#303030',
 			contrast: {
 				base: '#ffffff',
 				light: '#ffffff',
@@ -14,19 +14,19 @@ export const defaultTheme: Theme = {
 			},
 		},
 		secondary: {
-			base: '#d15e2d',
-			light: '#d98a35',
-			dark: '#c3522b',
+			base: '#fafafa',
+			light: '#ffffff',
+			dark: '#dbdbdb',
 			contrast: {
-				base: '#ffffff',
-				light: '#ffffff',
-				dark: '#ffffff',
+				base: '#000000',
+				light: '#000000',
+				dark: '#000000',
 			},
 		},
 		accent: {
-			base: '#c13530',
-			light: '#e49592',
-			dark: '#902824',
+			base: '#ad5c00',
+			light: '#ff9f33',
+			dark: '#703b00',
 			contrast: {
 				base: '#ffffff',
 				light: '#ffffff',
@@ -34,13 +34,13 @@ export const defaultTheme: Theme = {
 			},
 		},
 		background: {
-			base: '#181b5b',
-			light: '#343ac4',
-			dark: '#0b0d2b',
+			base: '#808080',
+			light: '#c2c2c2',
+			dark: '#616161',
 			contrast: {
-				base: '#ffffff',
-				light: '#ffffff',
-				dark: '#ffffff',
+				base: '#000000',
+				light: '#000000',
+				dark: '#000000',
 			},
 		},
 		success: {
